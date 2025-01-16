@@ -47,5 +47,16 @@ class BLEController extends GetxController {
     }
   }
 
- 
+  void subscribeToCharacteristics() {
+    for (var service in services) {
+      for (var characteristic in service.characteristics) {
+        if (characteristic.properties.notify) {
+          characteristic.value.listen((value) {
+            receivedData[characteristic.uuid] = value;
+          });
+          characteristic.setNotifyValue(true);
+        }
+      }
+    }
+  }
 }
