@@ -32,10 +32,28 @@
       "languageVersion": "3.4"
     },
     {
+      "name": "convert",
+      "rootUri": "file:///Users/qasim/.pub-cache/hosted/pub.dev/convert-3.1.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
+    },
+    {
       "name": "cupertino_icons",
       "rootUri": "file:///Users/qasim/.pub-cache/hosted/pub.dev/cupertino_icons-1.0.8",
       "packageUri": "lib/",
       "languageVersion": "3.1"
+    },
+    {
+      "name": "dio",
+      "rootUri": "file:///Users/qasim/.pub-cache/hosted/pub.dev/dio-5.7.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "dio_web_adapter",
+      "rootUri": "file:///Users/qasim/.pub-cache/hosted/pub.dev/dio_web_adapter-2.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
     },
     {
       "name": "fake_async",
@@ -44,10 +62,22 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "fixnum",
+      "rootUri": "file:///Users/qasim/.pub-cache/hosted/pub.dev/fixnum-1.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.1"
+    },
+    {
       "name": "flutter",
       "rootUri": "file:///Users/qasim/development/flutter/packages/flutter",
       "packageUri": "lib/",
       "languageVersion": "3.3"
+    },
+    {
+      "name": "flutter_blue",
+      "rootUri": "file:///Users/qasim/.pub-cache/hosted/pub.dev/flutter_blue-0.8.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     },
     {
       "name": "flutter_lints",
@@ -60,6 +90,18 @@
       "rootUri": "file:///Users/qasim/development/flutter/packages/flutter_test",
       "packageUri": "lib/",
       "languageVersion": "3.3"
+    },
+    {
+      "name": "get",
+      "rootUri": "file:///Users/qasim/.pub-cache/hosted/pub.dev/get-4.6.6",
+      "packageUri": "lib/",
+      "languageVersion": "2.15"
+    },
+    {
+      "name": "http_parser",
+      "rootUri": "file:///Users/qasim/.pub-cache/hosted/pub.dev/http_parser-4.1.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
     },
     {
       "name": "leak_tracker",
@@ -110,6 +152,18 @@
       "languageVersion": "3.0"
     },
     {
+      "name": "protobuf",
+      "rootUri": "file:///Users/qasim/.pub-cache/hosted/pub.dev/protobuf-2.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "rxdart",
+      "rootUri": "file:///Users/qasim/.pub-cache/hosted/pub.dev/rxdart-0.26.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "sky_engine",
       "rootUri": "file:///Users/qasim/development/flutter/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
@@ -152,6 +206,12 @@
       "languageVersion": "3.4"
     },
     {
+      "name": "typed_data",
+      "rootUri": "file:///Users/qasim/.pub-cache/hosted/pub.dev/typed_data-1.4.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.5"
+    },
+    {
       "name": "vector_math",
       "rootUri": "file:///Users/qasim/.pub-cache/hosted/pub.dev/vector_math-2.1.4",
       "packageUri": "lib/",
@@ -164,13 +224,19 @@
       "languageVersion": "3.3"
     },
     {
+      "name": "web",
+      "rootUri": "file:///Users/qasim/.pub-cache/hosted/pub.dev/web-1.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
+    },
+    {
       "name": "flutter_ble",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "3.6"
     }
   ],
-  "generated": "2025-01-15T22:01:28.030346Z",
+  "generated": "2025-01-15T22:06:17.396899Z",
   "generator": "pub",
   "generatorVersion": "3.6.0",
   "flutterRoot": "file:///Users/qasim/development/flutter",
