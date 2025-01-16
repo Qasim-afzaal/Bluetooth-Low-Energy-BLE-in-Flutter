@@ -27,5 +27,25 @@ class BLEController extends GetxController {
     }
   }
 
+  Future<void> connectToDevice(BluetoothDevice device) async {
+    try {
+      await device.connect();
+      connectedDevice.value = device;
+      services.assignAll(await device.discoverServices());
+      subscribeToCharacteristics();
+    } catch (e) {
+      Get.snackbar('Error', 'Failed to connect: $e');
+    }
+  }
+
+  Future<void> disconnectDevice() async {
+    if (connectedDevice.value != null) {
+      await connectedDevice.value!.disconnect();
+      connectedDevice.value = null;
+      services.clear();
+      receivedData.clear();
+    }
+  }
+
  
 }
