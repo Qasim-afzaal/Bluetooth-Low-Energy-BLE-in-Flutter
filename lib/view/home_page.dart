@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_ble/controller/ble_controller.dart';
 import 'package:get/get.dart';
+  final BLEController controller = Get.put(BLEController());
 
 class HomePage extends StatelessWidget {
-  final BLEController controller = Get.put(BLEController());
+  const HomePage({super.key});
+
 
   @override
   Widget build(BuildContext context) {
