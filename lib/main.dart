@@ -7,6 +7,8 @@ void main() {
 }
 
 class BLEApp extends StatelessWidget {
+  const BLEApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
